@@ -16,7 +16,11 @@
 
     border-radius: 10px;
     /* border-top-left-radius: 20px; */
-
+}
+@media(max-width: 500px){
+    #box_Container{
+        top: 50px;
+    }
 }
 
 .ttl{
@@ -67,3 +71,4 @@
     box-shadow: 0 0 10px rgba(32, 109, 126, 0.505);
     overflow: hidden;
 }
+
